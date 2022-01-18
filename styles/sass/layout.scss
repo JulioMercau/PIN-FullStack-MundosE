@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.logo{
+    width: 25vw;
+    padding-left: 5%;
+    img{
+        width: 10vw;
+    }
+}
+
+.about{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.frame{
+    
+    display: flex;
+    width: 100vw;
+    height: 24rem ;
+    
+    border-left: 2rem solid orange;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parrafo{
+    
+    width: 57vw;
+    height: 50vh;
+    h3{
+        font-size: 2.438rem;
+        span{
+            color: #E0752F;
+        }
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+.products{
+    
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 71%, rgba(220,225,218,1) 71%);
+}
+
+.section3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+}
+.section3Imagen{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(../../assets/section3-image@2x.png);
+    background-size: cover;
+    
+    border-top: 3%;
+    height: 73vh;
+    width: 70vw;
+        
+}
+
+.carrusel_naranja{
+    color: white;
+    background-color: #E0752F;
+    width: 49%;
+    height: 55%;
+    padding: 3%;
+    h3{
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    p{
+        padding: 1%;
+        font-weight: lighter;
+    }
+}
+
+.services{
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/section4-image@2x.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.acordeon{
+
+    margin-left: 15%;
+    width: 49vw;
+    height: auto;
+    
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #ffff;
+    
+}
+
+
+.contact{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 71%, rgba(220,225,218,1) 71%);
+}
+
+.formulario{
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.imagen{
+    width: 50vw;
+    height: 100vh;
+    background-color: green;
+}
+.form-control{
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}

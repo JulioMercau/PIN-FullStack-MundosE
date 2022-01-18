@@ -1,0 +1,23 @@
+{
+  "name": "fullstackpin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-compile": "sass styles/sass:styles/css",
+    "sass-watch": "sass --watch styles/sass:styles/css",
+    "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map styles/sass:styles/css",
+    "sass-compile-dev": "sass -c --style=expanded --no-source-map styles/sass:styles/css",
+    "sass-compile-prod": "sass --style=compressed styles/sass:dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.47.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "live-server": "^1.2.1"
+  }
+}
